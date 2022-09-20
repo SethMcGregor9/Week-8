@@ -1,0 +1,110 @@
+#box-model {
+padding: 20px;
+border-style: solid ;
+border-width: 3px;
+margin: 30px;
+background-color: greenyellow;
+text-align: center;
+}
+
+#box-model:hover {
+   background-color: red; 
+}
+
+.main-heading {
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 7px;
+    background-color: lightgreen;
+    height: 38px;
+}
+
+table{
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+   background-color: rgb(100, 185, 100);
+}
+tr:nth-child(odd) {
+    background-color: rgb(200, 100, 170);
+}
+
+tr:hover {
+    background-color: grey;
+}
+
+
+.page1-p1{
+    text-align: center;
+    color:blueviolet;
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-size: 300%;
+    font-family: '', fantasy; 
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+
+#h2p2 {
+    color:rgb(135, 28, 236);
+    font-size: 250%;
+    font-family: '', fantasy; 
+}
+
+.contents li {
+color: rgb(34, 235, 23);
+font-size: 150%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+#h2h1 {
+    text-align: center;
+    color:rgb(135, 28, 236);
+    font-size: 200%;
+    font-family: '', fantasy; 
+}
+
+
+#p1p1 {
+    text-align: center;
+    color: rgb(34, 235, 23);
+    font-size: 150%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#h2h2 {
+    text-align: center;
+    color:rgb(135, 28, 236);
+    font-size: 200%;
+    font-family: '', fantasy; 
+}
+
+#p1p2 {
+    text-align: center;
+    color: rgb(34, 235, 23);
+    font-size: 150%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+form{
+   color: blueviolet;
+   
+}
